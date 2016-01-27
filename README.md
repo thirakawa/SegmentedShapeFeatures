@@ -18,22 +18,6 @@ While we construct the level line sets by *Tree of Shapes* (ToS) using an algori
     python SegmentedShapeFeatures.py [image file]
 
 
-## Brief description for source files
-### SegmentedShapeFeatures.py
-This extracts SSF feature from an image and save as csv file.
-To execute this scripts, it is necessary to import following modules．
-
-### TreeOfShapes.pyx and PriorityQueue.pyx
-This builds ToS.
-The algorithm is based on [3] as described above.
-
-### setup.py
-This is used for compiling cython code (TreeOfShapes.pyx and PriorityQueue.pyx).
-
-### attributeGraph.py
-This converts ToS class of TreeOfShapes.pyx into NetworkX graph object.
-
-
 ## Sample images
 Some of the Brodatz dataset images are stored in *images* directory.  
 [Brodatz dataset](http://multibandtexture.recherche.usherbrooke.ca/original_brodatz.html)
